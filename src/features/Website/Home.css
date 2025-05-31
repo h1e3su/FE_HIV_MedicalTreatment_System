@@ -1,0 +1,214 @@
+.home {
+  font-family: "Segoe UI", sans-serif;
+  color: #1f2937;
+  background-color: #f9fafb;
+  line-height: 1.6;
+}
+
+/* Hero Section */
+.hero {
+  position: relative;
+  padding: 100px 20px;
+  text-align: center;
+  color: #0f172a;
+  /* background: linear-gradient(
+      rgba(236, 255, 245, 0.9),
+      rgba(236, 255, 245, 0.9)
+    ),
+    url("https://i.imgflip.com/2fbyuw.jpg"); */
+  background: url("https://i.imgflip.com/2fbyuw.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.hero h1 span {
+  color: #16a34a;
+  opacity: initially 0.1;
+}
+
+.hero p {
+  max-width: 700px;
+  margin: 20px auto;
+  font-size: 1.2rem;
+  color: #475569;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.btn-primary {
+  background-color: #16a34a;
+  color: white;
+  padding: 12px 28px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.btn-primary:hover {
+  background-color: #15803d;
+}
+
+.btn-outline {
+  border: 2px solid #16a34a;
+  color: #16a34a;
+  padding: 12px 28px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.btn-outline:hover {
+  background-color: #ecfdf5;
+}
+
+/* Features */
+.features {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: white;
+}
+
+.features h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+}
+
+.feature-card {
+  background: #f1f5f9;
+  padding: 20px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.feature-card .icon {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.feature-card h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+/* Why Choose Us */
+.why-choose {
+  background-color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.why-choose h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.reasons {
+  list-style: none;
+  padding: 0;
+  max-width: 600px;
+  margin: 0 auto;
+  color: #374151;
+}
+
+.reasons li {
+  padding: 10px 0;
+}
+
+/* CTA */
+.cta {
+  background-color: #16a34a;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.cta h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.btn-primary.large {
+  font-size: 1.2rem;
+  padding: 14px 32px;
+}
+
+.footer {
+  background-color: #0f172a;
+  color: #e2e8f0;
+  padding: 40px 20px 20px;
+  font-size: 0.95rem;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 2rem;
+}
+
+.footer-column {
+  flex: 1 1 250px;
+  min-width: 200px;
+}
+
+.footer-column h3,
+.footer-column h4 {
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.footer-column p,
+.footer-column li {
+  margin-bottom: 8px;
+  color: #cbd5e1;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column a {
+  color: #cbd5e1;
+  text-decoration: none;
+}
+
+.footer-column a:hover {
+  text-decoration: underline;
+  color: #38bdf8;
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #334155;
+  margin-top: 30px;
+  padding-top: 15px;
+  font-size: 0.9rem;
+  color: #94a3b8;
+}
