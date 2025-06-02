@@ -1,0 +1,47 @@
+/* Topbar */
+.topbar {
+  background-color: #f8f9fa;
+  font-size: 14px;
+  padding: 5px 20px; /* Giảm padding để tiết kiệm không gian */
+  border-bottom: 1px solid #e0e0e0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  display: flex; /* Đảm bảo nội dung nằm trên cùng một dòng */
+  justify-content: space-between;
+  align-items: center;
+  white-space: nowrap; /* Ngăn nội dung xuống dòng */
+}
+
+.topbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  width: 100%;
+  color: #495057;
+  gap: 20px;
+}
+
+.topbar .topbar-left,
+.topbar .topbar-right {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Khoảng cách giữa các mục */
+}
+
+.topbar a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.topbar a:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
+
+.topbar .icon {
+  margin-right: 5px;
+  font-size: 16px;
+}
+

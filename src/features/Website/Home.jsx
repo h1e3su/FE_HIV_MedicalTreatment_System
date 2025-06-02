@@ -4,6 +4,8 @@ import "./Home.css";
 export default function Home() {
   return (
     <>
+
+    
       <div className="home">
         {/* Hero section */}
         <section className="hero">
@@ -42,10 +44,9 @@ export default function Home() {
             </div>
             <div className="feature-card">
               <div className="icon">🧪</div>
-              <h3>Xét nghiệm ẩn danh</h3>
+              <h3> Tư vấn ẩn danh</h3>
               <p>
-                Đặt lịch xét nghiệm HIV nhanh, không cần tên thật. Kết quả riêng
-                tư.
+                Đặt lịch xét nghiệm HIV nhanh.<br></br> Kết quả riêng tư.
               </p>
             </div>
             <div className="feature-card">
@@ -63,7 +64,6 @@ export default function Home() {
         <section className="why-choose">
           <h2>Tại Sao Chọn Chúng Tôi?</h2>
           <ul className="reasons">
-            <li>✅ Ẩn danh tuyệt đối, bảo mật thông tin</li>
             <li>✅ Đội ngũ chuyên gia giàu kinh nghiệm</li>
             <li>✅ Đặt lịch nhanh chóng, hoàn toàn trực tuyến</li>
             <li>✅ Hỗ trợ tận tâm trước – trong – sau điều trị</li>

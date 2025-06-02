@@ -11,12 +11,11 @@
   padding: 100px 20px;
   text-align: center;
   color: #0f172a;
-  /* background: linear-gradient(
+  background: /*linear-gradient(
       rgba(236, 255, 245, 0.9),
       rgba(236, 255, 245, 0.9)
-    ),
-    url("https://i.imgflip.com/2fbyuw.jpg"); */
-  background: url("https://i.imgflip.com/2fbyuw.jpg");
+    ),*/ url("https://i.imgflip.com/2fbyuw.jpg");
+
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

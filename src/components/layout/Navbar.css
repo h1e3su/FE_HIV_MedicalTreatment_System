@@ -74,7 +74,7 @@
 }
 
 .btn-primary {
-  background-color: #2563eb; /* Blue */
+  background-color: #2563eb; 
   color: white;
   border: none;
 }
@@ -82,3 +82,4 @@
 .btn-primary:hover {
   background-color: #1e4fd5;
 }
+
