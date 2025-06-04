@@ -1,7 +1,7 @@
 import logo from "../../assets/images/logo.jpg";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-import Topbar from "./Topbar.jsx"; 
+import Topbar from "../Topbar.jsx"; 
 
 
 function CustomNavbar() {
