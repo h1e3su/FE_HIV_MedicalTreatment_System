@@ -1,12 +1,13 @@
 import React from "react";
-import banner_image from "../../assets/banner.jpg";
-import Navigation from "../../Components/Navigation/Navigation";
-import Navbar from "../../Components/Navbar/Navbar";
-import hero_picture from "../../assets/pngtree-hiv-symbol-png-image_6486007.png"; // Assuming you have a hero picture
-import "./Home.css"; // Assuming you have a CSS file for Home component styles
-import LinkList from "../../Components/Link List/LinkList";
-import doctor_icon from "../../assets/doctor.jpg"; // Assuming you have a doctor icon
-import Footer from "../../Components/Footer/Footer";
+import banner_image from "../../assets/images/banner.jpg"; 
+import Navigation from "../../components/Navigation/Navigation.jsx";
+import Navbar from "../../components/Navbar/Navbar.jsx"; 
+import hero_picture from "../../assets/images/hero.jpg"; 
+import "./Home.css"; // Đảm bảo file CSS tồn tại
+import LinkList from "../../components/LinkList/LinkList.jsx"; 
+import doctor_icon from "../../assets/images/doctor-icon.jpg"; 
+import Footer from "../../components/Footer/Footer.jsx"; 
+
 const Home = () => {
   return (
     <>
@@ -44,12 +45,12 @@ const Home = () => {
           </div>
         </div>
         {/* About section */}
-      </section> 
+      </section>
       <section className="about-section" id="about">
         <div className="section-content flex-div">
           <div className="about-image-wrapper">
             <img
-              src={doctor_icon} // Assuming you have a doctor icon
+              src={doctor_icon} 
               alt="about"
               className="about-image"
             />
@@ -65,12 +66,14 @@ const Home = () => {
               khả năng tiếp cận và tính bảo mật, chúng tôi đảm bảo mọi cá nhân
               đều nhận được sự hỗ trợ họ cần — mọi lúc, mọi nơi.
             </p>
-            <div className="links-container"> <LinkList/></div>
-           
+            <div className="links-container">
+              {" "}
+              <LinkList />
+            </div>
           </div>
         </div>
       </section>
-      <Footer/>
+      <Footer />
     </>
   );
 };

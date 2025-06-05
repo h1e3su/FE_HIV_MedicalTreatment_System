@@ -1,6 +1,6 @@
 import React from "react";
 import "./Navigation.css";
-import home_icon from '../../assets/home.png';
+import home_icon from "../../assets//images/logo.png"; // Assuming you have a home icon
 
 const Navigation = () => {
   return (
