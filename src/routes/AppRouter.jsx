@@ -1,43 +1,43 @@
 import { Routes, Route } from "react-router-dom";
 
 // Navbar
-import NavBar from "../components/layout/Navbar";
+import NavBar from "../components/Navbar/Navbar";
 import { useLocation } from "react-router-dom";
 
 // Guest
-import Home from "../features #unnessecary/Website/Home";
-import Login from "../features #unnessecary/auth/Login";
-import Register from "../features #unnessecary/auth/Register";
-import BlogList from "../features #unnessecary/Blog/BlogList";
-import BlogDetail from "../features #unnessecary/Blog/BlogDetail";
-import ChatSupport from "../features #unnessecary/Website/Chatsupport";
-import HivSurvey from "../features #unnessecary/Website/HivSurvey";
+import Home from "../features/Website/Home";
+import Login from "../features/auth/Login";
+import Register from "../features/auth/Register";
+import BlogList from "../features/Blog/BlogList";
+import BlogDetail from "../features/Blog/BlogDetail";
+import ChatSupport from "../features/Website/Chatsupport";
+import HivSurvey from "../features/Website/HivSurvey";
 
 // Customer
-import CustomerDashboard from "../features #unnessecary/Customer/CustomerDashboard";
-import TestConsultation from "../features #unnessecary/Customer/TestConsultation";
-import TestRegistration from "../features #unnessecary/Customer/TestRegistration";
-import TestResults from "../features #unnessecary/Customer/TestResults";
-import TreatmentPlan from "../features #unnessecary/Customer/TreatmentPlan";
-import MedicalHistory from "../features #unnessecary/Customer/MedicalHistory";
-import Notifications from "../features #unnessecary/Customer/Notifications";
-import CustomerProfile from "../features #unnessecary/Customer/Profile";
+import CustomerDashboard from "../features/Customer/CustomerDashboard";
+import TestConsultation from "../features/Customer/TestConsultation";
+import TestRegistration from "../features/Customer/TestRegistration";
+import TestResults from "../features/Customer/TestResults";
+import TreatmentPlan from "../features/Customer/TreatmentPlan";
+import MedicalHistory from "../features/Customer/MedicalHistory";
+import Notifications from "../features/Customer/Notifications";
+import CustomerProfile from "../features/Customer/Profile";
 
 // Doctor
-import DoctorDashboard from "../features #unnessecary/Doctor/DoctorDashboard";
-import DoctorPatients from "../features #unnessecary/Doctor/DoctorPatients";
-import UpdateRecord from "../features #unnessecary/Doctor/UpdateRecord";
-import TreatmentSelection from "../features #unnessecary/Doctor/TreatmentSelection";
-import DoctorProfile from "../features #unnessecary/Doctor/Profile";
-import DoctorAppointments from "../features #unnessecary/Doctor/Appointments";
+import DoctorDashboard from "../features/Doctor/DoctorDashboard";
+import DoctorPatients from "../features/Doctor/DoctorPatients";
+import UpdateRecord from "../features/Doctor/UpdateRecord";
+import TreatmentSelection from "../features/Doctor/TreatmentSelection";
+import DoctorProfile from "../features/Doctor/Profile";
+import DoctorAppointments from "../features/Doctor/Appointments";
 
 // Admin
-import AdminDashboard from "../features #unnessecary/Admin/AdminDashboard";
-import ManageDoctors from "../features #unnessecary/Admin/ManageDoctors";
-import ManageStaff from "../features #unnessecary/Admin/ManageStaff";
-import ManagePatients from "../features #unnessecary/Admin/ManagePatients";
-import SystemSettings from "../features #unnessecary/Admin/SystemSettings";
-import ManageBlogs from "../features #unnessecary/Admin/ManageBlogs";
+import AdminDashboard from "../features/Admin/AdminDashboard";
+import ManageDoctors from "../features/Admin/ManageDoctors";
+import ManageStaff from "../features/Admin/ManageStaff";
+import ManagePatients from "../features/Admin/ManagePatients";
+import SystemSettings from "../features/Admin/SystemSettings";
+import ManageBlogs from "../features/Admin/ManageBlogs";
 
 export default function AppRouter() {
   const location = useLocation(); // Ẩn Navbar ở các trang login, register
