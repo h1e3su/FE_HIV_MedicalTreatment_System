@@ -1,0 +1,160 @@
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+img {
+  width: 100%;
+}
+
+.section-content {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.section-title {
+  text-align: center;
+  padding: 60px 0 100px;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+.section-title::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 5px;
+  margin: 10px auto 0;
+  border-radius: 8px;
+  background: #f3961c;
+}
+
+/* Banner styling */
+
+.banner-section {
+  width: 100%;
+  max-height: 80vh; /* or any fixed height you want */
+  overflow: hidden;
+}
+
+.banner-section .banner {
+  width: 100%;
+  object-fit: cover; /* Ensures image covers the container */
+  display: block;
+}
+
+/* Hero section styling */
+.hero-section {
+  display: flex;
+  min-height: 90vh;
+  background: #fff;
+  justify-content: center;
+}
+
+.hero-section .section-content {
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  min-height: 90vh;
+  max-width: 95%;
+}
+
+.hero-section .hero-details {
+    padding-left: 100px
+}
+
+.hero-section .hero-details .title {
+  font-size: 2.3rem;
+  font-weight: 700;
+}
+
+.hero-section .hero-details .subtitle {
+  margin-top: 8px;
+  max-width: 100%;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.hero-section .hero-details .description {
+  max-width: 100%;
+  margin: 24px 0 40px;
+  font-size: 1.12rem;
+}
+
+.hero-section .hero-details .buttons {
+  display: flex;
+  gap: 23px;
+}
+
+.hero-section .hero-details .button {
+  padding: 10px 26px;
+  border: 2px solid transparent;
+  background: #02d433;
+  color: #422128;
+  font-weight: 500;
+  border-radius: 30px;
+  transition: 0.3s ease;
+}
+
+.hero-section .hero-details .button:hover {
+  border-color: #6cff8e;
+  background: #6cff8e;
+}
+.hero-section .hero-details .contact-us {
+  border-color: #6cff8e;
+  background: transparent;
+}
+
+.hero-section .hero-details .contact-us:hover {
+  color: #422128;
+  border-color: #6cff8e;
+  background: #6cff8e;
+}
+
+.hero-section .hero-image-wrapper {
+  margin-right: 30px;
+  width: 100%;
+  margin:0;
+  padding-left: 200px;
+}
+
+/* About styling */
+.about-section {
+  padding: 120px 0;
+  background: #faf4f5;
+}
+
+.about-section .section-content {
+  gap: 50px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-section .about-image-wrapper .about-image {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.about-section .about-details .section-title {
+  padding: 0;
+}
+
+.about-section .about-details {
+  max-width: 50%;
+}
+
+.about-section .about-details .text {
+  line-height: 30px;
+  margin: 50px 0 30px;
+  text-align: center;
+  font-size: 1.12rem;
+}
+
+.about-section .about-details .links-container {
+  width: 150px;
+  justify-self: center;
+}

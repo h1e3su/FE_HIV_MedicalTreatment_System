@@ -1,47 +1,38 @@
-import { Link } from "react-router-dom";
+
+import React from "react";
 import "./Navbar.css";
-import Topbar from "../Topbar/Topbar";
-import logo from "../../assets/images/logo.jpg"; 
-function CustomNavbar() {
+import menu_icon from "../../assets/images/menu.png"; // Đường dẫn mới
+import logo from "../../assets/images/ribon.webp"; // Đường dẫn mới
+import upload_icon from "../../assets/images/upload.png"; // Đường dẫn mới
+import more_icon from "../../assets/images/more.png"; // Đường dẫn mới
+import notification_icon from "../../assets/images/notification.png"; // Đường dẫn mới
+import profile_icon from "../../assets/images/jack.png"; // Đường dẫn mới
+
+const Navbar = () => {
   return (
-    <>
-      {/* Topbar */}
-      <Topbar />
+    <nav className="flex-div">
+      <div className="nav-left flex-div">
+        <img className="menu-icon" src={menu_icon} alt="Menu_icon" />
+        <img className="logo" src={logo} alt="Logo" />
+        <p className="system-name">MedLed</p>
+      </div>
 
-      <header className="header">
-        <div className="header-container">
-          {/* Logo */}
-          <Link to="/" className="logo">
-            <img src={logo} alt="MedCare Clinic Logo" className="logo-img" />
-            <span className="logo-text">MedCare Clinic</span>
-          </Link>
-
-          {/* Navigation links */}
-          <nav className="nav-links">
-            <Link to="/services" className="nav-item">
-              Services
-            </Link>
-            <Link to="/about" className="nav-item">
-              About
-            </Link>
-            <Link to="/contact" className="nav-item">
-              Contact
-            </Link>
-          </nav>
-
-          {/* Action buttons */}
-          <div className="auth-buttons">
-            <Link to="/login" className="btn btn-outline">
-              Log In
-            </Link>
-            <Link to="/register" className="btn btn-primary">
-              Register Account
-            </Link>
-          </div>
+      {/* <div className='nav-middle flex-div'>
+        <div className='search-box flex-div' >
+            <input type='text' placeholder='Search'/>
+            <img src={search_icon} alt='Search_icon'/>
         </div>
-      </header>
-    </>
-  );
-}
+      </div> */}
 
-export default CustomNavbar;
+      <div className="nav-right flex-div">
+        <img src={upload_icon} alt="Upload Icon" />
+        <img src={more_icon} alt="More Icon" />
+        <img src={notification_icon} alt="Notification Icon" />
+        <img src={profile_icon} className="user-icon" alt="Profile Icon" />
+      </div>
+    </nav>
+  );
+};
+
+
+export default Navbar;

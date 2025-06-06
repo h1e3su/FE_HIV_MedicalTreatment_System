@@ -1,85 +1,53 @@
-/* General layout */
-.header {
-  background-color: #ffffff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-  padding: 16px 32px;
-}
+nav {
+    padding: 10px 2%;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .nav-left .menu-icon {
+    width: 22px;
+    margin-right: 25px;
+  }
+  
+  .nav-left .logo {
+    height: 40px;
+  }
 
-.header-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-/* Logo */
-.logo {
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-}
-
-.logo-img {
-  height: 40px;
-  width: auto;
-}
-
-.logo-text {
-  font-size: 1.25rem;
-  font-weight: 700;
-  color: #0d0d0d;
-  margin-left: 10px;
-}
-
-/* Navigation */
-.nav-links {
-  display: flex;
-  gap: 24px;
-}
-
-.nav-item {
-  text-decoration: none;
-  color: #1a1a1a;
-  font-weight: 500;
-  font-size: 1rem;
-}
-
-.nav-item:hover {
-  color: #0056b3;
-}
-
-/* Buttons */
-.auth-buttons {
-  display: flex;
-  gap: 12px;
-}
-
-.btn {
-  padding: 8px 16px;
-  border-radius: 6px;
-  font-weight: 600;
-  font-size: 0.95rem;
-  text-decoration: none;
-  display: inline-block;
-  text-align: center;
-}
-
-.btn-outline {
-  color: #000;
-  border: 1px solid #ccc;
-  background-color: transparent;
-}
-
-.btn-outline:hover {
-  background-color: #f2f2f2;
-}
-
-.btn-primary {
-  background-color: #2563eb; 
-  color: white;
-  border: none;
-}
-
-.btn-primary:hover {
-  background-color: #1e4fd5;
-}
-
+  .nav-left .system-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-left: 1px;
+  }
+  
+  .nav-middle .search-box {
+    border: 1px solid #ccc;
+    margin-right: 15px;
+    padding: 8px 12px;
+    border-radius: 25px;
+  }
+  
+  .nav-middle .search-box input {
+    border: none;
+    outline: none;
+    width: 400px;
+    background: transparent;
+  }
+  
+  .nav-middle .search-box img {
+    width: 15px;
+  }
+  
+  .nav-right img {
+    width: 30px;
+    margin-right: 15px;
+  }
+  
+  .nav-right .user-icon {
+    width: 35px;
+    border-radius: 50%;
+  }
+  
