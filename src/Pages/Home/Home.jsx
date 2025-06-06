@@ -1,12 +1,12 @@
 import React from "react";
-import banner_image from "../../assets/images/banner.jpg"; 
+import banner_image from "../../assets/images/banner.jpg";
 import Navigation from "../../components/Navigation/Navigation.jsx";
-import Navbar from "../../components/Navbar/Navbar.jsx"; 
-import hero_picture from "../../assets/images/hero.jpg"; 
-import "./Home.css"; // Đảm bảo file CSS tồn tại
-import LinkList from "../../components/LinkList/LinkList.jsx"; 
-import doctor_icon from "../../assets/images/doctor-icon.jpg"; 
-import Footer from "../../components/Footer/Footer.jsx"; 
+import Navbar from "../../components/Navbar/Navbar.jsx";
+import hero_picture from "../../assets/images/hero.jpg";
+import "./Home.css";
+import LinkList from "../../components/Link List/LinkList.jsx";
+import doctor_icon from "../../assets/images/doctor.jpg";
+import Footer from "../../components/Footer/Footer.jsx";
 
 const Home = () => {
   return (
@@ -49,11 +49,7 @@ const Home = () => {
       <section className="about-section" id="about">
         <div className="section-content flex-div">
           <div className="about-image-wrapper">
-            <img
-              src={doctor_icon} 
-              alt="about"
-              className="about-image"
-            />
+            <img src={doctor_icon} alt="about" className="about-image" />
           </div>
           <div className="about-details">
             <h2 className="section-title">Về Chúng Tôi</h2>
